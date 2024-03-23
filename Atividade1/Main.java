@@ -20,17 +20,17 @@ public class Main {
         System.out.println("Digite outro numero: ");
         numB = scan.nextInt();
         
-        System.out.println("A soma dos números: "+ somar(numA, numB));
-        System.out.println("A subtração dos números: "+ subtrair(numA, numB));
-        System.out.println("A multiplicação dos números: "+ multiplicar(numA, numB));
-        System.out.println("A divisão dos números: "+ dividir(numA, numB));
-        if (Primo(numA)==true) {
+        System.out.println("A soma dos números: "+ calc.somar(numA, numB));
+        System.out.println("A subtração dos números: "+ calc.subtrair(numA, numB));
+        System.out.println("A multiplicação dos números: "+ calc.multiplicar(numA, numB));
+        System.out.println("A divisão dos números: "+calc.dividir(numA, numB));
+        if (calc.Primo(numA)==true) {
             System.out.println(numA + " é primo.");
         } else {
             System.out.println(numA + " não é primo.");
         }
 
-        if (PrimoB(numB)== true) {
+        if (calc.PrimoB(numB)== true) {
             System.out.println(numB + " é primo.");
         } else {
             System.out.println(numB + " não é primo.");
