@@ -24,6 +24,7 @@ public class Main {
         System.out.println("A subtração dos números: "+ calc.subtrair(numA, numB));
         System.out.println("A multiplicação dos números: "+ calc.multiplicar(numA, numB));
         System.out.println("A divisão dos números: "+calc.dividir(numA, numB));
+        
         if (calc.Primo(numA)==true) {
             System.out.println(numA + " é primo.");
         } else {
