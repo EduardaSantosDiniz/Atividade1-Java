@@ -54,8 +54,6 @@ public class atividade1 {
 
         
         Scanner scan = new Scanner(System.in);
-
-    
         
         System.out.println("Digite um numero: ");
         numA = scan.nextInt();
