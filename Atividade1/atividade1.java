@@ -45,13 +45,10 @@ public class atividade1 {
         return true;  
     }
     
-
-
     public static void main(String[] args) {
     
         double numA;
         double numB;
-
         
         Scanner scan = new Scanner(System.in);
         
@@ -60,7 +57,6 @@ public class atividade1 {
 
         System.out.println("Digite outro numero: ");
         numB = scan.nextInt();
-
         
         System.out.println("A soma dos números: "+ somar(numA, numB));
         System.out.println("A subtração dos números: "+ subtrair(numA, numB));
@@ -78,11 +74,7 @@ public class atividade1 {
             System.out.println(numB + " não é primo.");
         }
 
-
-
         scan.close();
-
-      
 
   }
     
