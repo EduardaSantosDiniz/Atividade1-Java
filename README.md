@@ -1,4 +1,4 @@
- Tarefa da faculdade, disciplina de Programação Orientada a Objetos
+Tarefa da faculdade, disciplina de Programação Orientada a Objetos
 
 Atividade:
 No seu repositório de atividades, crie uma pasta chamada atividade1.
